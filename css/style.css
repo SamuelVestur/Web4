@@ -1,0 +1,199 @@
+html,
+body {
+  margin: 0;
+  /* background: #333; */
+  font-family: "Georama", sans-serif;
+}
+
+.menu {
+  background: #fff url("../img/logo.png") 60px no-repeat;
+  text-align: right;
+  color: #333;
+  padding: 10px;
+  word-spacing: 30px;
+  font-weight: normal;
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  margin-right: 150px;
+}
+
+#last {
+  word-spacing: 0px;
+  padding: 10px;
+  border: 2px solid rgb(167, 162, 162);
+  border-radius: 5px;
+}
+
+#last:hover {
+  word-spacing: 0px;
+  padding: 10px;
+  border: 2px solid rgb(187, 0, 0);
+  border-radius: 5px;
+}
+
+#last a:hover {
+  color: rgb(187, 0, 0);
+}
+
+#second {
+  color: orange;
+}
+
+.background {
+  background: url("../img/background.jpg") 50% 0px no-repeat;
+  height: 500px;
+  margin-top: -95px;
+  position: relative;
+  text-indent: -40px;
+}
+
+.background h1 {
+  position: absolute;
+  top: 30%;
+  margin: 50px 27%;
+
+  font-size: 50px;
+  color: #fff;
+}
+
+.background h2 {
+  position: absolute;
+  top: 55%;
+  margin: 50px 27%;
+
+  font-size: 26px;
+  color: #fff;
+}
+
+strong {
+  color: orange;
+}
+
+main {
+  margin: 50px 25%;
+}
+
+main h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+main p {
+  word-spacing: 5px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  *zoom: 1;
+}
+
+.group {
+  height: 700px;
+  margin-top: 150px;
+}
+
+.group h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding: 5px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.left {
+  text-align: left;
+  width: 320px;
+  height: 250px;
+  float: left;
+}
+
+.right {
+  width: 320px;
+  height: 250px;
+  float: right;
+}
+
+.left p {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  text-indent: -80px;
+}
+
+.left p:before {
+  position: relative;
+  bottom: -80px;
+  content: "♕";
+  color: orange;
+  font-size: 70px;
+  padding: 5px;
+}
+
+.right p {
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-indent: -80px;
+}
+
+.right p:before {
+  position: relative;
+  bottom: -80px;
+  content: "♔";
+  color: orange;
+  font-size: 70px;
+  padding: 5px;
+}
+
+.button p {
+  text-align: center;
+  word-spacing: 0px;
+}
+
+.button a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(200, 63, 63, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  color: #333;
+}
